@@ -121,6 +121,8 @@ eval "$(direnv hook bash)"
 export BROWSER="/mnt/c/Users/Razeen/AppData/Local/Mozilla\ Firefox/firefox.exe"
 export GITLAB_USER= #gitlab user email
 export GITLAB_TOKEN=  #gitlab personal access token
+export ANSIBLE_DIFF_ALWAYS=true
+export ANSIBLE_FORCE_COLOR=true
 
 alias wtf="wrapped-terraform"
 alias sso="AWS_PROFILE=work-live aws sso login"
